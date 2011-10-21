@@ -30,6 +30,11 @@
         />
 
     <utility
+        component=".jsonsource.JSONSource"
+        name="collective.jsonmigrator.jsonsource"
+        />
+
+    <utility
         component=".remotesource.RemoteSource"
         name="collective.jsonmigrator.remotesource"
         />
@@ -77,6 +82,11 @@
     <utility
         component=".catalogsource.CatalogSourceSection"
         name="collective.jsonmigrator.catalogsource"
+        />
+
+    <utility
+        component=".plonearticle.PlonearticleInnerContent"
+        name="collective.jsonmigrator.plonearticle-innercontent"
         />
 
     <transmogrifier:registerConfig
